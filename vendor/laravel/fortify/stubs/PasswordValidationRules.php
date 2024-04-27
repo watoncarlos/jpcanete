@@ -4,7 +4,7 @@ namespace App\Actions\Fortify;
 
 use Illuminate\Validation\Rules\Password;
 
-trait PasswordValidationRules
+trait NewPasswordValidationRules
 {
     /**
      * Get the validation rules used to validate passwords.

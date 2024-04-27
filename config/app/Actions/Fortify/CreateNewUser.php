@@ -10,7 +10,7 @@ use Laravel\Jetstream\Jetstream;
 
 class CreateNewUser implements CreatesNewUsers
 {
-    use PasswordValidationRules;
+    use NewPasswordValidationRules;
 
     /**
      * Validate and create a newly registered user.
